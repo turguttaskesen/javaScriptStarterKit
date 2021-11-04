@@ -69,7 +69,7 @@ dolarDun = "Ankara"
 let dolarBugun = 9.30
 //dolarDun = "Ankara"
 
-=======
+
 console.log("Merhaba Kodlama.io")
 
 //JS type safe değildir

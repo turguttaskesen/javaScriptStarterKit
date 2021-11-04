@@ -58,4 +58,19 @@ let products = [
 ]
 addToCart4(products)
 
+function add(...numbers) {//Rest işlemi
+    //console.log(numbers)
+    let total = 0
+    for (let i = 0; i < numbers.length; i++) {
+        //console.log(numbers[i])
+        total = total + numbers[i]
+    }
+    console.log(total)
+    
+}
+add(20,50)
+add(20,30,50)
+
+console.log(Math.max(23,45,78,100))
+
 

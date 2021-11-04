@@ -55,7 +55,6 @@ function addToCart3(product) {
     console.log("Ürün : " + product.productName)
     console.log("Adet : " + product.quantity)
     console.log("Ürün : " + product.unitPrice)
-=======
 addToCart2("Elma",5,10)
 addToCart2("Armut", 2, 20)
 addToCart2("Limon",3,15)

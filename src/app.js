@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 console.log("Merhaba Kodlama.io !")
 
 // Js Tip korumalı değildir
@@ -104,8 +104,7 @@ for (let i = 0; i < konutKredileri.length; i++) {
 }
 console.log("<ul>")
 
-console.log(konutKredileri) */
-=======
+console.log(konutKredileri) *
 console.log(dolarDun)
 
 const euroDun = 11.2
@@ -128,7 +127,6 @@ console.log("</ul>")
     <li>Konut kredisi</li>
     <li>Emlak Konut Kredisi</li>
     <li>Kamu Konut Kredisi</li>
-</ul> */}
+</ul> */
 
-console.log(konutKredileri)
->>>>>>> 913ee0044458ba0401b6785ff179f907b3fb0c1e
+

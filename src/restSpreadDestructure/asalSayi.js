@@ -14,7 +14,7 @@ function asalMi(...numbers) {
 
         for (let i = 2; i < numbers[number]; i++) {
 
-            if ((numbers[number]) % i == 0) {
+            if ((numbers[number]) % i == 0 ) {
                 asalDegil.push(numbers[number])
                 break
             } else {
@@ -29,4 +29,4 @@ function asalMi(...numbers) {
 
 
 }
-asalMi(2,3,5,7,13,15,4,6,8,10,11,12,13,14,16,115,116)
+asalMi(0,2,3,5,7,13,15,4,6,8,10,11,12,13,14,16,115,116,25)

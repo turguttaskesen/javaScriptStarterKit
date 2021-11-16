@@ -7,7 +7,7 @@ export default class UserService{
     add(user){
         //console.log("Kullanıcı Eklendi : " + user)
         this.users.push(user)
-        this.loggerService.log(user)
+        //this.loggerService.log(user)
     }
 
     list(){

@@ -50,7 +50,7 @@
 
 // function someFunction([small1], number) {
 //     console.log(small1)
-    
+
 // }
 
 // someFunction(populations)
@@ -87,13 +87,10 @@ dolarDun = "Ankara"
 {
     let dolarDun = 9.10
 }
-
-
-
 console.log(dolarDun)
 
 
-const  euroDun = 11.2
+const euroDun = 11.2
 //euroDun = 11 // bunu let yapamıyoruz.
 
 console.log(euroDun)
@@ -107,9 +104,9 @@ let konutKredileri = ["Konut Kredisi", "Emlak Konut Kredisi", "Kamu Konut Kredis
 console.log("<ul>")
 
 for (let i = 0; i < konutKredileri.length; i++) {
-    console.log("<li>" + konutKredileri[i] +"<li>")
+    console.log("<li>" + konutKredileri[i] + "<li>")
 
 }
 console.log("<ul>")
 
-console.log(konutKredileri) 
+console.log(konutKredileri)

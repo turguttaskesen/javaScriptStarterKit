@@ -49,7 +49,7 @@ console.log(marmaraSehirleri)
 
 let newProductName, newUnitPrice,newQuantity 
 ({productName:newProductName, unitPrice : newUnitPrice, quantity:newQuantity} 
-= {productName:"Elma", unitPrice:10, quantity:5})
+= {productName:"Armut", unitPrice:200, quantity:5})
 
 console.log(newProductName)
 console.log(newUnitPrice)

@@ -9,19 +9,22 @@ let cart = [
 ]
 
 //cart.map(product =>console.log(product.productName))//diziyi tek tek dolaşır.
-cart.map(product => {
-    console.log(product.productName + " : " + product.unitPrice * product.quantity)
-})
 
-let total = cart.reduce((acc, product) => acc + product.unitPrice, 0)
+console.log("<ul>")
+cart.map(product => {
+    console.log("<ul>"+product.productName + " : " + product.unitPrice * product.quantity+"/<ul>")
+})//Diziyi gezer************
+console.log("<ul>")
+
+let total = cart.reduce((aku, product) => aku + product.unitPrice * product.quantity, 0)// acc'nin ilk değeri 0 dır.
 console.log(total)
 
 
-let quantityOver2 = cart.filter(product => product.quantity > 2)
-
+let quantityOver2 = cart.filter(product => product.quantity < 4)
+// yepyeni array oluştururuz.
 console.log(quantityOver2)
 
-function addToCart(sepet) {
+function addToCart(sepet) {// referans tip plduğu için adrese ekleme yapar.
     sepet.push({ id: 7, productName: "Monitör", quantity: 3, unitPrice: 2000 })
 }
 
@@ -34,5 +37,5 @@ function sayiTopla(number) {
     number += 1
     return number
 }
-sayiTopla(sayi)
+sayiTopla(sayi)//değer tip tir değiştirme yapmaz.
 console.log(sayi)

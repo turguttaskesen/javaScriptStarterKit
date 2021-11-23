@@ -1,4 +1,5 @@
 import { BaseLogger, ElasticLogger, MongoLogger } from "../crossCuttingCocerns/logging/logger.js"
+import { users } from "../data/users.js"
 import User from "../models/user.js"
 import UserService from "../services/userService.js"
 
@@ -18,6 +19,11 @@ console.log(userService.getById(1))
 
 
 let customer = { id: 1, fistName: "Turgut" }
+
 // Prototyping
 customer.lastName = "Taşkesen"
 console.log(customer.lastName)
+
+console.log("***************************************************************************")
+
+userService.load(users)
